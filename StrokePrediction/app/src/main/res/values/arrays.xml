@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options_array1">
+        <item>Private</item>
+        <item>Self-employed</item>
+        <item>children</item>
+        <item>Govt_job</item>
+        <item>Never_worked</item>
+        <!-- Add more options as needed -->
+    </string-array>
+
+    <string-array name="options_array2">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+        <!-- Add more options as needed -->
+    </string-array>
+
+    <string-array name="options_array3">
+        <item>Yes</item>
+        <item>No</item>
+        <!-- Add  options as needed -->
+    </string-array>
+
+    <string-array name="options_array4">
+        <item>Urban</item>
+        <item>Rural</item>
+        <!-- Add  options as needed -->
+    </string-array>
+
+    <string-array name="options_array5">
+        <item>Never Smoked </item>
+        <item>formerly smoked</item>
+        <item>Smokes</item>
+        <item>Unknown</item>
+        <!-- Add  options as needed -->
+    </string-array>
+
+
+
+</resources>
+

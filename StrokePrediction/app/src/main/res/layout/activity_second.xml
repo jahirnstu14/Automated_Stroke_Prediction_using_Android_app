@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Label and Input Field 1 -->
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="AGE : "/>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="-5dp"
+            android:inputType="number"
+            android:hint="Enter number " />
+
+        <!-- Label and Input Field 2 -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText1"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Hypertension : "/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="-2dp"
+            android:inputType="number"
+            android:hint="1 or 0" />
+
+        <!-- Label and Input Field 3 to 10 -->
+        <!-- Repeat the following block for the remaining input fields -->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:inputType="number"
+            android:text="Heart_Disease : "/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="8dp"
+            android:hint="1 or 0" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:inputType="number"
+            android:text="Avg_Glucose_Level : "/>
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="-2dp"
+            android:hint="Enter Number " />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:inputType="number"
+            android:text="BMI :  "/>
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="-2dp"
+            android:hint="Enter number" />
+
+        <!-- Label and Spinner for Multiple Options 1 -->
+        <TextView
+            android:id="@+id/textViewSpinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText5"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="Work_Type : "/>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSpinner1"
+            android:layout_marginTop="8dp"
+            android:entries="@array/options_array1" />
+
+        <!-- Label and Spinner for Multiple Options 2 -->
+        <TextView
+            android:id="@+id/textViewSpinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="Gender : "/>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSpinner2"
+            android:layout_marginTop="8dp"
+            android:entries="@array/options_array2" />
+
+        <TextView
+            android:id="@+id/textViewSpinner3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner2"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="Ever_Married : "/>
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSpinner3"
+            android:layout_marginTop="8dp"
+            android:entries="@array/options_array3" />
+        <TextView
+            android:id="@+id/textViewSpinner4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner3"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="Residence_Type : "/>
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSpinner4"
+            android:layout_marginTop="8dp"
+            android:entries="@array/options_array4" />
+
+        <TextView
+            android:id="@+id/textViewSpinner5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner4"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="Smoking_Status : "/>
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSpinner5"
+            android:layout_marginTop="8dp"
+            android:entries="@array/options_array5" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="Prediction"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/button2"
+
+
+            />
+
+        <!-- Repeat the Label and Spinner block for additional multiple options if needed -->
+
+        <!-- Your existing layout content goes here -->
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp"
+    tools:context=".ThirdActivity">
+
+    <!-- First Section -->
+    <RelativeLayout
+        android:id="@+id/section1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        tools:ignore="ExtraText">
+
+        <!-- Title for First TextView --><![CDATA[
+        ]]>
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LAB TEST "
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            tools:ignore="HardcodedText" />
+
+        <!-- First TextView --><![CDATA[
+        ]]><TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Test"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_below="@id/title1"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+    <!-- Divider Line 1 -->
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/section1"
+        android:layout_marginTop="2dp"
+        android:background="#CCCCCC" />
+
+    <!-- Second Section -->
+    <RelativeLayout
+        android:id="@+id/section2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+
+        tools:ignore="ExtraText">
+
+        <!-- Title for Second TextView -->
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TREATMENT"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            tools:ignore="HardcodedText" /> <!-- Center horizontally -->
+        />
+
+        <!-- Second TextView -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Treatment"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_below="@id/title2"
+            android:layout_marginTop="8dp"
+            />
+
+    </RelativeLayout>
+
+    <!-- Divider Line 2 -->
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/section2"
+        android:layout_marginTop="16dp"
+        android:background="#CCCCCC" />
+
+    <!-- Third Section -->
+    <RelativeLayout
+        android:id="@+id/section3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <!-- Title for Third TextView -->
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIFESTYLE CHANGES"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            tools:ignore="HardcodedText" /> <!-- Center horizontally -->
+        />
+
+        <!-- Third TextView -->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lifestyle"
+            android:textSize="16sp"
+            android:layout_below="@id/title3"
+            android:textStyle="italic"
+            android:layout_marginTop="8dp"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

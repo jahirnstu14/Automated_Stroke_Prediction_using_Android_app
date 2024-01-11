@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">StrokePrediction</string>
+    <string name="start">Get Started</string>
+    <string name="textviewname">Powered By Md. Jahirul lslam</string>
+    <string name="Test">
+        1.CT Scan (Computed Tomography)\n
+        2.MRI (Magnetic Resonance Imaging)\n
+        3.Hypertension test\n
+        4.Cerebral Angiography\n
+        5.Blood Tests\n
+    </string>
+    <string name="Treatment">
+        Managing high blood pressure with medication.\n
+        Managing cholesterol levels:\n
+        •Rosuvastatin (Crestor) oral tablet.\n
+        Subsequent Management: if condition is very severe:\n
+        1.Tissue plasminogen activator (tPA) within 3 hours.\n
+        2. aspirin and clopidogrel.\n
+        Rehabilition Therapies :\n
+        1.Physical Therapy\n
+        2.Occupational Therapy\n
+        3.Behavioural Therapy
+    </string>
+
+    <string name="lifestyle">
+        Exercise : 30 mins/day, 5days/week in the morning.\n
+        Nutrition : A healthy nutritious diet that provides sufficient calories.\n
+        Healthy lifestyle: Leaving smoking and alcohol.\n
+        Diabetes Control
+
+
+    </string>
+</resources>

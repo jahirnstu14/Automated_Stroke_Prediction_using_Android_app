@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/ImageView1"
+        android:scaleType="fitXY"
+        android:src="@drawable/stroke_prediction"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120sp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"/>
+    <TextView
+
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="@string/textviewname"
+        android:textSize="22sp"
+        android:paddingLeft="70sp"
+        android:id="@+id/textview1"
+
+
+        />
+
+
+</LinearLayout>
